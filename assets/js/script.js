@@ -24,11 +24,6 @@ navBurger.addEventListener("click", (e)  => {
 });
 
 
-var url = window.location.href;
-url = url.substring(0, url.lastIndexOf("."));
-
-window.history.replaceState( null, null, url )
-
 
 
 
@@ -76,7 +71,12 @@ $(document).ready(function(){
 
 
     
-
+	var url = window.location.href;
+	url = url.substring(0, url.lastIndexOf("."));
+	
+	window.history.replaceState( null, null, url )
+	
+	
 
         
 });
