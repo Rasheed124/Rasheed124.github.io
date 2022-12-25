@@ -30,9 +30,6 @@ navBurger.addEventListener("click", (e)  => {
 
 
 
-
-
-
 $(document).ready(function(){
 
 /*----------------------------------------------------*/
@@ -49,7 +46,38 @@ $(document).ready(function(){
         navText: ["<div class='nav-button owl-prev '>‹</div>", "<div class='nav-button owl-next'>›</div>"],
 		autoplayTimeout: 4000,
 		autoplayHoverPause: true,
-		smartSpeed: 1000,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			767: {
+				items: 1,
+			},
+			768: {
+				items: 1,
+			},
+			991: {
+				items: 1,
+			},
+			1000: {
+				items: 1,
+			},
+		},
+	});
+
+	let bSlide = $(".blog-slide");
+	bSlide.owlCarousel({
+		items: 1,
+		loop: true,
+		autoplay: true,
+        margin: 40,
+		dots: false,
+		nav: true,
+        navText: ["<div class='nav-button owl-prev '>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
 		responsive: {
 			0: {
 				items: 1,
