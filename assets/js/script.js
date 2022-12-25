@@ -21,21 +21,20 @@ navBurger.addEventListener("click", (e)  => {
 	
 	  }
 
-
-
-
-	
-
-
-
 });
 
 
+var url = window.location.href;
+url = url.substring(0, url.lastIndexOf("."));
 
-var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
-if (a.indexOf('html') > -1) { //Check of html String in URL.
-   url = url.substring(0, newURL.lastIndexOf("."));
-}
+window.history.replaceState( null, null, url )
+
+
+
+
+
+
+
 
 
 
@@ -74,6 +73,10 @@ $(document).ready(function(){
 			},
 		},
 	});
+
+
+    
+
 
         
 });
