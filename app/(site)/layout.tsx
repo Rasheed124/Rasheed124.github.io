@@ -3,6 +3,7 @@
 import "../styles/globals.css";
 
 import { fonts } from "../fonts/fonts";
+import Navbar from "@/components/site/Navbars/Navbar";
 
 
 
@@ -24,11 +25,11 @@ export default  function RootLayout({
        className={`${fonts.calibreMedium} ${fonts.calibreBold} bg-primary-color text-secondary-color`}
       >
         {/* Header */}
-        <main className=" max-w-6xl mx-auto px-4">
+        <main className=" font-calibre-medium max-w-6xl mx-auto px-4">
           <div className=" ">
-            {children}
 
-        
+            <Navbar />
+            {children}
           </div>
         </main>
       </body>
