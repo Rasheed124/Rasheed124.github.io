@@ -22,12 +22,11 @@ export default  function RootLayout({
   return (
     <html lang="en">
       <body
-       className={`${fonts.calibreMedium} ${fonts.calibreBold} bg-primary-color text-secondary-color`}
+        className={` ${fonts.firaMono} ${fonts.rubik} ${fonts.calibreBold} bg-primary-color text-secondary-color`}
       >
         {/* Header */}
-        <main className=" font-calibre-medium max-w-6xl mx-auto px-4">
+        <main className="font-rubik max-w-6xl mx-auto px-4">
           <div className=" ">
-
             <Navbar />
             {children}
           </div>
