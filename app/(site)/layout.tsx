@@ -21,9 +21,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${fonts.inter} ${fonts.montserrat}`}>
       <body className={`${fonts.inter} ${fonts.montserrat}`}>
-        {children}</body>
+      {children}
+      </body>
     </html>
-  )
+  );
 }
