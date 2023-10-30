@@ -52,6 +52,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
+            Rasheed
             {/* <Image className="w-14" src={logo} alt="logo" /> */}
           </motion.div>
         </Link>
