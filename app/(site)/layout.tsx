@@ -1,8 +1,7 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import { fonts } from '../fonts/fonts';
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rasheeddev.me"),
@@ -23,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${fonts.inter} ${fonts.montserrat}`}>
         {children}</body>
     </html>
   )

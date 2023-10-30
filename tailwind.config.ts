@@ -32,8 +32,8 @@ const config: Config = {
         hoverColor: "rgba(100,255,218,0.1)",
       },
       fontFamily: {
-        bodyFont: ["Montserrat", "sans-serif"],
-        titleFont: ["Inter", "sans-serif"],
+        bodyFont: ["var(--font-montserrat)"],
+        titleFont: ["var(--font-Inter)"],
       },
       boxShadow: {
         navbarShadow: " 0 10px 30px -10px rgba(2,12,27,0.7)",
