@@ -21,10 +21,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${fonts.inter} ${fonts.montserrat}`}>
-      <body className={`${fonts.inter} ${fonts.montserrat}`}>
-      {children}
-      </body>
+    <html lang="en" >
+      <body className={`${fonts.inter} ${fonts.montserrat} ${fonts.libre_baskerville}`}>
+        {children}</body>
     </html>
-  );
+  )
 }
