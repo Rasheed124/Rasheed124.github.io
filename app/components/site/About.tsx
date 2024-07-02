@@ -13,11 +13,11 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hi there! I{"'"}m Rasheed Tolulope, and I love making digital concepts come to life. I started experimenting with custom Tumblr themes in 2012, which led me to pursue a career in web development. My passion for developing dynamic and captivating online experiences was sparked by this practical experience with HTML and CSS.
+          Hi there! I&apos;m Rasheed Tolulope, and I love making digital concepts come to life. I started experimenting with custom Tumblr themes in 2012, which led me to pursue a career in web development. My passion for developing dynamic and captivating online experiences was sparked by this practical experience with HTML and CSS.
           </p>
 
           <p>
-          Let{"'"}s go back to the present day, I have been developing websites for more than  <span className="text-textGreen">three years,</span>  and I am proficient in HTML5, CSS, and JavaScript. I can create amazing websites that improve user experiences because I am skilled in a variety of front-end development frameworks and WordPress development principles. I enjoy working in  <span className="text-textGreen">dynamic teams</span>  to find and take advantage of possibilities to improve digital interactions, and this shows in my collaborative spirit.
+          Let&apos;s go back to the present day, I have been developing websites for more than  <span className="text-textGreen">three years,</span>  and I am proficient in HTML5, CSS, and JavaScript. I can create amazing websites that improve user experiences because I am skilled in a variety of front-end development frameworks and WordPress development principles. I enjoy working in  <span className="text-textGreen">dynamic teams</span>  to find and take advantage of possibilities to improve digital interactions, and this shows in my collaborative spirit.
           </p>
        
           <p>Here are a few technologies I have been working with recently:</p>
