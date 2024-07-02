@@ -1,4 +1,4 @@
-// import { profileImg } from "@/public/assets";
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
