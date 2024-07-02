@@ -76,7 +76,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Dawn Ai
+            Dawn AI
           </li>
           <li
             onClick={handleApple}
@@ -93,8 +93,8 @@ const Experience = () => {
         {workReactbd && <ReactBD />}
         {workGoogle && <Google />}
         {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {/* {workSplash && <Splash />}
+        {workAmazon && <Amazon />} */}
       </div>
     </section>
   );

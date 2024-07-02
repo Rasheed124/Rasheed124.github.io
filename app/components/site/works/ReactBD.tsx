@@ -11,7 +11,7 @@ const ReactBD = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Web Developer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        <span className="text-textGreen tracking-wide">@AscentTech</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Jan 2019 - 2023
@@ -21,23 +21,31 @@ const ReactBD = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          Designed elegant and responsive websites for clients to help them grow their businesses and reach their target audience.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          Conducted quality assurance tests to identify and rectify flaws, enhancing website usability.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Developed custom WordPress themes to help customers promote themselves and increase their income.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Assisted in maintaining and updating web content, ensuring accurate and up-to-date information for visitors.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Provided technical support to clients, resolving issues and ensuring a smooth user experience on their websites.
         </li>
       </ul>
     </motion.div>
