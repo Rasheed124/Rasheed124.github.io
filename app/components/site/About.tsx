@@ -81,7 +81,6 @@ const About = () => {
                 alt="profileImg"
                 fill
               />
-              {/* <img className="rounded-lg w-full h-full object-cover" src="/rasheed-tolulope-profile.webp" alt="" /> */}
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
