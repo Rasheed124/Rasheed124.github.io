@@ -10,8 +10,8 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Web Developer & WebMastery Instructor
-        <span className="text-textGreen tracking-wide">@AscentTech</span>
+        Web Developer 
+        <span className="text-textGreen tracking-wide">@Duromedia</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Jan 2019 - 2023
