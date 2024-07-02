@@ -13,29 +13,13 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+          Hi there! I'm Rasheed Tolulope, and I love making digital concepts come to life. I started experimenting with custom Tumblr themes in 2012, which led me to pursue a career in web development. My passion for developing dynamic and captivating online experiences was sparked by this practical experience with HTML and CSS.
           </p>
+
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+          Let's go back to the present day, I have been developing websites for more than  <span className="text-textGreen">three years,</span>  and I am proficient in HTML5, CSS, and JavaScript. I can create amazing websites that improve user experiences because I am skilled in a variety of front-end development frameworks and WordPress development principles. I enjoy working in  <span className="text-textGreen">dynamic teams</span>  to find and take advantage of possibilities to improve digital interactions, and this shows in my collaborative spirit.
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
-          </p>
+       
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
@@ -91,11 +75,12 @@ const About = () => {
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
-              <Image
+              {/* <Image
                 className="rounded-lg h-full object-cover"
-                src={''}
+                src={'/'}
                 alt="profileImg"
-              />
+              /> */}
+              <img src="/rasheed-tolulope-profile.webp" alt="" />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
