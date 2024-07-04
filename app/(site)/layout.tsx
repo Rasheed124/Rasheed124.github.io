@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { fonts } from '../fonts/fonts';
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rasheeddev.me"),
+  metadataBase: new URL("https://rasheedtolulope.vercel.app"),
   title: {
     default: "Rasheed Tolulope",
     template: `%s - Rasheed Tolulope`,
