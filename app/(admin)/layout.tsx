@@ -6,12 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rasheeddev.me"),
+  metadataBase: new URL("https://rasheedtolulope.vercel.app"),
   title: {
     default: "Rasheed Tolulope",
     template: `%s - Rasheed Tolulope`,
   },
-  description: "Am a Full stack Developer",
+  description: "Am a Frontend Engineer",
   verification: {
     //   google: "google-site-verification=878787878",
   },

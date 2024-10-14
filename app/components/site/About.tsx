@@ -13,7 +13,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hi there! I&apos;m Rasheed Tolulope, and I love making digital concepts come to life. I started experimenting with custom Tumblr themes in 2012, which led me to pursue a career in web development. My passion for developing dynamic and captivating online experiences was sparked by this practical experience with HTML and CSS.
+          Hi there! I&apos;m Rasheed Tolulope, and I love making digital concepts come to life. I started experimenting with custom Tumblr themes in 2019, which led me to pursue a career in web development. My passion for developing dynamic and captivating online experiences was sparked by this practical experience with HTML and CSS.
           </p>
 
           <p>

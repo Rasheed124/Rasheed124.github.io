@@ -14,7 +14,7 @@ const ReactBD = () => {
         <span className="text-textGreen tracking-wide">@Duromedia</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2019 - 2023
+        Jan 2021 - 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
