@@ -21,7 +21,7 @@ const Splash = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Delivered engaging and interactive lectures on HTML, CSS, JavaScript, Scratch, and Python, catering to a diverse group of students aged 0-15.
+          Delivered engaging and interactive lectures on HTML, CSS, JavaScript, Scratch, and Python, catering to a diverse group of students aged 0-15 and above.
 
         </li>
         <li className="text-base flex gap-2 text-textDark">

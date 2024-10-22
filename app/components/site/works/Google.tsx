@@ -13,7 +13,7 @@ const Google = () => {
         <span className="text-textGreen tracking-wide">@Ascent</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-      May 2024 – Present
+      May 2019 – 2024
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
